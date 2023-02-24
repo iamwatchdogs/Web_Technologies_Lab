@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Factorial</title>
+    </head>
+    <body>
+        <script>
+            let fact = 1;
+            let input = window.prompt("Enter a number:");
+            let n = parseInt(input);
+            for (let index = 2; index <= n; index++) {
+                fact *= index;  
+            }
+            window.alert("Factorial of " + n + " is " + fact);
+        </script>
+    
+    </body>
+</html>
